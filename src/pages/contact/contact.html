@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Nous contacter
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <!--<ion-list-header>Follow us on Twitter</ion-list-header>-->
+    <!--<ion-item>
+      <ion-icon name="ionic" item-left></ion-icon>
+      @ionicframework
+    </ion-item>-->
+    <br/>
+    <form action="/ma-page-de-traitement" method="post">
+    <div>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" />
+    </div>
+    <div>
+        <label for="courriel">Courriel :</label>
+        <input type="email" id="courriel" />
+    </div>
+    <div>
+        <label for="message">Message :</label>
+        <textarea id="message"></textarea>
+    </div>
+    
+    <div class="button">
+        <button type="submit">Envoyer votre message</button>
+    </div>
+</form>
+
+  </ion-list>
+</ion-content>
